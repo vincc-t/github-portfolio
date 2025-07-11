@@ -1,0 +1,127 @@
+/* Base colors */
+body {
+  background-color: #f9fbff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Navbar customization */
+.navbar {
+  background-color: #002b5c !important; /* Deep blue */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd700 !important; /* Gold on hover */
+}
+
+/* Hero section */
+header {
+  background: linear-gradient(to right, #0052cc, #00c6ff);
+  color: white;
+  padding: 4rem 1rem;
+}
+
+header h1 {
+  font-size: 2.8rem;
+}
+
+header .btn {
+  background-color: #ffd700;
+  border: none;
+  color: #002b5c;
+  font-weight: bold;
+}
+
+header .btn:hover {
+  background-color: #ffc300;
+  color: #000;
+}
+
+/* Section headers */
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #002b5c;
+  border-bottom: 2px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Section containers */
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Project cards */
+#projects .col-md-6 {
+  background-color: #eef6ff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 4px solid #0052cc;
+}
+
+/* Resume section */
+#resume .btn {
+  background-color: #0052cc;
+  border: none;
+}
+
+#resume .btn:hover {
+  background-color: #003d99;
+}
+
+/* Footer */
+footer {
+  background-color: #002b5c;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* Contact links */
+#contact a {
+  color: #0052cc;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Certification Section Styling */
+.cert-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.cert-box {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.cert-box:hover {
+  transform: translateY(-5px);
+}
+
+.cert-box img {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
