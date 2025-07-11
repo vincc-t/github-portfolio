@@ -34,7 +34,9 @@
   <div class="container">
     <h1>Vincent Tuang</h1>
     <p class="lead">Diploma in Infocomm & Security</p>
-    <a href="#projects" class="btn btn-outline-light">View My Work</a>
+    <a href="#projects" class="btn btn-outline-light">View My Projects</a>
+    <a href="#certificates" class="btn btn-outline-light">View My Certificates</a>
+    <a href="#resume" class="btn btn-outline-light">View My Resume</a>
   </div>
 </header>
 
@@ -43,43 +45,153 @@
     <div class="text-center"><h2>About Me</h2></div>  
     <p>
         I’m currently a Year 2 student pursuing a Diploma in Infocomm & Security at Nanyang Polytechnic. While I’m still exploring where my strengths and interests lie in the tech field, I’ve gained exposure to areas like cybersecurity, networking, and web development through my coursework.
-    <br>
+        <br><br>
         I enjoy learning how different systems and technologies work together, and I’m open to discovering which path suits me best — whether in security, infrastructure, or software development. As I continue my studies and internships, I hope to gain more practical experience and better understand the kind of work I’d like to pursue in the future.
     </p>
 </section>
 
 <!-- Skills -->
-<section id="skills" class="bg-light py-5">
+<section id="skills" class="py-5">
   <div class="container">
-    <div class="text-center"><h2>Skills</h2></div>
-    <ul>
-      <li><strong>Programming:</strong> Python, HTML/CSS, SQL</li>
-      <li><strong>Tools:</strong> Github, Linux, Cisco Packet Tracer</li>
-      <li><strong>Concepts:</strong> OSI/TCP-IP, IP Addressing & Subnetting, VLANs & LAN/WAN basics</li>
-      <li><strong>Soft Skills:</strong> Communication, Teamwork, Adaptable, Willing to Learn</li>
-    </ul>
+    <div class="text-center">
+      <h2>Skills</h2>
+    </div>
+
+    <div class="row mt-3">
+      <!-- Programming -->
+      <div class="col-md-12">
+        <h4 class="fw-bold">Programming</h4>
+        <div class="d-flex flex-wrap gap-3">
+          <div class="skill-item"><span class="dot"></span> Python</div>
+          <div class="skill-item"><span class="dot"></span> HTML/CSS</div>
+          <div class="skill-item"><span class="dot"></span> SQL</div>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="col-md-12 mt-3">
+        <h4 class="fw-bold">Tools</h4>
+        <div class="d-flex flex-wrap gap-3">
+          <div class="skill-item"><span class="dot"></span> Linux</div>
+          <div class="skill-item"><span class="dot"></span> Github</div>
+          <div class="skill-item"><span class="dot"></span> Cisco Packet Tracer</div>
+        </div>
+      </div>
+
+      <!-- Concept -->
+      <div class="col-md-12 mt-3">
+        <h4 class="fw-bold">Concepts</h4>
+        <div class="d-flex flex-wrap gap-3">
+          <div class="skill-item"><span class="dot"></span> IP Addressing & Subnetting</div>
+          <div class="skill-item"><span class="dot"></span> VLANs / LAN / WAN basics</div>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="col-md-12 mt-3">
+        <h4 class="fw-bold">Concepts</h4>
+        <div class="d-flex flex-wrap gap-3">
+          <div class="skill-item"><span class="dot"></span> Communication</div>
+          <div class="skill-item"><span class="dot"></span> Teamwork</div>
+          <div class="skill-item"><span class="dot"></span> Adaptable</div>
+          <div class="skill-item"><span class="dot"></span> Willing to Learn</div>
+        </div>
+      </div>
+
+      <!-- Languages -->
+      <div class="col-md-12 mt-3">
+        <h4 class="fw-bold">Languages</h4>
+        <div class="d-flex flex-wrap gap-3">
+          <div class="skill-item"><span class="dot"></span> English (native)</div>
+          <div class="skill-item"><span class="dot"></span> Chinese (proficient)</div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+
 
 <!-- Projects -->
-<section id="projects" class="container py-5">
-  <div class="text-center"><h2>Projects</h2></div>
-  <div class="row">
-    <div class="col-md-6">
-      <h5>Secure Login System</h5>
-      <p>A Flask-based login system using hashed passwords and basic XSS protection.</p>
-      <small><strong>Tools:</strong> Python, Flask, HTML/CSS</small><br>
+<section id="projects" class="py-5">
+  <div class="container text-center">
+    <h2>Projects</h2>
+
+    <!-- Project 1 -->
+    <div class="row align-items-center project-block text-start">
+      <!-- Left (Text) -->
+      <div class="col-md-6 position-relative p-4">
+        <div class="project-text ps-4">
+          <h5 class="text-primary fw-bold">VLSM Network Planning</h5>
+          <p class="fw-semibold">School Lab (Networking & Comms Module)</p>
+          <p>
+            Used Variable Length Subnet Masking (VLSM) to plan efficient IP address allocation for a given topology. Calculated subnet ranges, broadcast addresses, and assigned devices accordingly in Cisco Packet Tracer.
+          </p>
+        </div>
+        <div class="vertical-bar"></div>
+      </div>
+
+      <!-- Right (Image Carousel) -->
+      <div class="col-md-6">
+        <div id="project1Carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="projects/Screenshot 2025-07-11 212355.png" class="d-block" alt="VLSM Screenshot 1">
+            </div>
+            <div class="carousel-item">
+              <img src="projects/Screenshot 2025-07-11 212410.png" class="d-block" alt="VLSM Screenshot 2">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#project1Carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#project1Carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
     </div>
-    <div class="col-md-6">
-      <h5>Network Topology Simulation</h5>
-      <p>Built a basic Cisco Packet Tracer network with routing and security protocols.</p>
-      <small><strong>Tools:</strong> Packet Tracer, Networking Fundamentals</small>
+
+    <!-- Project 2 -->
+    <div class="row align-items-center project-block text-start mt-5">
+      <!-- Left (Text) -->
+      <div class="col-md-6 position-relative p-4">
+        <div class="project-text ps-4">
+          <h5 class="text-primary fw-bold">Secure E-commerce Webpage</h5>
+          <p class="fw-semibold">School Assignment (System Security Project Module)(Ongoing)</p>
+          <p>
+            This project aims to develop a secure authentication system with modern security practices. It will include session management hardening and implementation of Content Security Policy (CSP) headers to mitigate risks like XSS and session hijacking. OAuth integration will allow users to log in securely using third-party providers. Email and SMS-based two-factor authentication (2FA) will also be added to enhance account security.
+          </p>
+        </div>
+        <div class="vertical-bar"></div>
+      </div>
+
+      <!-- Right (Image Carousel) -->
+      <div class="col-md-6">
+        <div id="project2Carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="projects/Screenshot 2025-07-11 222956.png" class="d-block" alt="Login Screenshot 1">
+            </div>
+            <div class="carousel-item">
+              <img src="projects/Screenshot 2025-07-11 222956.png" class="d-block" alt="Login Screenshot 2">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#project2Carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#project2Carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
     </div>
+
   </div>
 </section>
 
+
 <!-- Certificates -->
-<section id="certificates" class="bg-light py-5">
+<section id="certificates" class="py-5">
   <div class="container text-center">
     <h2>Certifications</h2>
 
@@ -108,10 +220,10 @@
 
 
 <!-- Resume -->
-<section id="resume" class="bg-light py-5 text-center">
+<section id="resume" class="py-5 text-center">
   <div class="container">
     <h2>Resume</h2>
-    <p>You can download my resume by clicking the button below.</p>
+    <iframe src="resume/Vincent Tuang.pdf" width="100%" height="600px" style="border: none;"></iframe><br>
     <a href="resume/Vincent Tuang.pdf" class="btn btn-primary" target="_blank">Download Resume (PDF)</a>
   </div>
 </section>
@@ -119,9 +231,10 @@
 <!-- Contact -->
 <section id="contact" class="container py-5">
   <h2>Contact Me</h2>
+  <p>Phone: 81395498</p>
   <p>Email: vincitive@gmail.com</p>
   <p>LinkedIn: <a href="https://www.linkedin.com/in/vincent-tuang-3b0756351/" target="_blank">linkedin.com/in/vincent-tuang-3b0756351/</a></p>
-  <p>GitHub: <a href="#" target="_blank">github.com/</a></p>
+  <p>GitHub: <a href="https://github.com/vincc-t" target="_blank">github.com/vincc-t</a></p>
 </section>
 
 <!-- Footer -->
